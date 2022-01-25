@@ -1,6 +1,6 @@
 {
-  "name": "serverless-dart",
-  "version": "0.0.2-beta.8",
+  "name": "serverless-dart-official",
+  "version": "0.0.4",
   "description": "Serverless framework plugin for Dart applications",
   "main": "lib/main.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katallaxie/serverless-dart.git"
+    "url": "git+https://github.com/davidsdearaujo/serverless-dart-official.git"
   },
   "keywords": [
     "dart",
@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/katallaxie/serverless-dart/issues"
+    "url": "https://github.com/davidsdearaujo/serverless-dart/issues"
   },
-  "homepage": "https://github.com/katallaxie/serverless-dart#readme",
+  "homepage": "https://github.com/davidsdearaujo/serverless-dart#readme",
   "dependencies": {
     "fs-copy-file-sync": "^1.1.1",
     "fs-extra": "^9.1.0",

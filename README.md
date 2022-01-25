@@ -3,9 +3,11 @@
 </div>
 
 <h1 align="center">
-  serverless-dart
+  serverless-dart-official
 </h1>
 
+<center><b>(fork from <a href="https://github.com/katallaxie/serverless-dart">katallaxie/serverless-dart</a>)</b></center>
+<BR/>
 <p align="center">
    A ⚡ <a href="https://www.serverless.com/framework/docs/">Serverless framework</a> ⚡ plugin for <a href="https://dart.dev/">Dart</a> applications
 </p>
@@ -14,8 +16,8 @@
   <a href="https://github.com/katallaxie/serverless-dart/actions">
     <img alt="GitHub actions build badge" src="https://github.com/katallaxie/serverless-dart/workflows/Main/badge.svg"/>
   </a>
-  <a href="https://www.npmjs.com/package/serverless-dart">
-    <img alt="npm release badge" src="https://img.shields.io/npm/v/serverless-dart.svg"/>
+  <a href="https://www.npmjs.com/package/serverless-dart-official">
+    <img alt="npm release badge" src="https://img.shields.io/npm/v/serverless-dart-official.svg"/>
   </a>
 </div>
 
@@ -26,7 +28,7 @@
 Install the plugin inside your serverless project with npm.
 
 ```sh
-$ npm i -D serverless-dart
+$ npm i -D serverless-dart-official
 ```
 
 💡 The `-D` flag adds it to your development dependencies in npm speak
@@ -43,7 +45,7 @@ provider:
 plugins:
   # this registers the plugin
   # with serverless
-  - serverless-dart
+  - serverless-dart-official
 # creates one artifact for each function
 package:
   individually: true
@@ -85,7 +87,7 @@ $ npx serverless deploy
 Clone the repository 
 
 ```bash 
-$ git clone https://github.com/katallaxie/serverless-dart
+$ git clone https://github.com/davidsdearaujo/serverless-dart-official
 ```
 
 Link the package
@@ -97,7 +99,7 @@ $ npm link
 Link the package to your testing environment
 
 ```bash
-$ npm link serverless-dart
+$ npm link serverless-dart-official
 ```
 
 ## 📃 License
